@@ -1,0 +1,51 @@
+{
+    "chain": "avalanche",
+    "protocol": "traderjoe_v2",
+    "pool": "WAVAX/USDC/20",
+    "base_token": "WAVAX",
+    "quote_token": "USDC",
+    "rsi_period": 14,
+    "rsi_timeframe": "1h",
+    "rsi_entry_low": "45",
+    "rsi_entry_high": "60",
+    "min_fee_apr": "70",
+    "min_atr_pct_for_entry": "1.2",
+    "edge_decay_checks": 3,
+    "target_notional_usd": "90",
+    "min_position_usd": "80",
+    "range_width_pct": "0.08",
+    "bin_range": 5,
+    "id_slippage": 20,
+    "partial_take_profit_pct": "0.02",
+    "partial_tp_floor_pct": "0.005",
+    "full_take_profit_pct": "0.04",
+    "hard_stop_loss_pct": "-0.03",
+    "max_drawdown_pct": "0.05",
+    "max_projected_il_pct": "1.5",
+    "il_scenario_price_change_pct": "20",
+    "max_runtime_hours": 24,
+    "pnl_stall_lookback_hours": 4,
+    "pnl_slope_min_pct_per_hour": "0.0005",
+    "pnl_stall_consecutive": 3,
+    "max_reentries": 1,
+    "reentry_cooldown_hours": 4,
+    "token_funding": [
+        {
+            "symbol": "WAVAX",
+            "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+            "amount": "5.268703898840885",
+            "amount_type": "token"
+        },
+        {
+            "symbol": "USDC",
+            "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+            "amount": "50.01",
+            "amount_type": "token"
+        }
+    ],
+    "anvil_funding": {
+        "AVAX": 100,
+        "WAVAX": 25,
+        "USDC": 5000
+    }
+}

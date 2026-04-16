@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .env
 *.db
+almanak_state.db
 *.db-journal
 .pytest_cache/
 .coverage

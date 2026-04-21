@@ -3,7 +3,7 @@ name = "avax_usdc_degen_lp"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
-    "almanak>=2.12.1rc4",
+    "almanak==2.13.1rc4",
 ]
 
 [tool.almanak.run]
